@@ -4,10 +4,57 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Edgar Chavez</title>
+    <title>Influenced</title>
 </head>
 <body>
-<h1>Ben</h1>
-<p>We are currently practicing on how to use git. This is a test edit.</p>
+
+
+    <div id="intro">
+        <h1>Influenced</h1>
+
+            <p>
+                “I cannot believe this!” exclaimed Rugasus, “they expect us to seriously pick this up literally right after dealing with the likes of Dirvana!”
+                “Calm down Rug, we simply can’t sweep this under the desk if it is worth this much.” bargained Tylinus. The crew were all back safely on their base after the nightmare that was Dirvana, a being able to control reality at his will, barely able to escape with their lives. Their familiar base was formed on the back of recently formed volcanic rock, all mostly grayish black. A man-made beach rests at the base of the island, with it idly accepting the embrace of the water that flows onto it. Overlooking the events below was the watchtower Yveta constructed herself, as she did not find her current abode to be satisfactory. The ATC tower kept a watchful eye of the skies, despite the fact no one was present to make any use of the information on the monitors. Then there was the main hub, four stories high and full of tense energy, as if the atmosphere itself was able to push you slightly in the other direction.
+            </p>
+    </div>
+
+    <div id="story">
+
+    </div>
+
+    <div id="buttons">
+
+    </div>
+
+    <script>
+    const myStory = {
+        intro : {
+            text : "Offer available at participating U.S. Wendy’s for a limited time. Mobile purchase required. Offer must be redeemed via Wendy’s app or online order. Account registration required. © 2019 The Coca-Cola Company",
+            choices : ["one", "two", "three"]
+        }
+    }
+    let storyContainer = document.getElementById('story');;
+    
+    let buttonContainer = document.getElementById ('buttons');
+    
+    function createButton(){
+        let button = document.createElement ('button');
+        
+        button.innerHTML = "My Button Text";
+
+        button.addEventListener ('click', function() {alert('Button was clicked.')})
+
+        buttonContainer.appendChild(button);
+    }
+
+    storyContainer.innerHTML = 
+    
+    
+    
+    </script>
+
+
+
+    
 </body>
 </html>
